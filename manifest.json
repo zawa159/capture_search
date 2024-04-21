@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "capture_search",
+  "author": "zawa159",
+  "version": "1.0.0",
+  "description": "画像検索",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["capture_search_main.js"]
+    }
+  ],
+  "action": {
+    "default_title":"capture_search"
+  }
+}
